@@ -60,10 +60,21 @@ but you'll have to implement those three above instructions first!
 ## Step 0: IMPORTANT: inventory what is here!
 
 * Make a list of files here.
+  - cpu.py
+  - ls8.py
+
 * Write a short 3-10-word description of what each file does.
+  - cpu.py seems to be the cpu
+  - ls8.py is an instance or computer that uses the cpu 
+
 * Note what has been implemented, and what hasn't.
+  - Looks like we need to implement load/run and multiply, ability to read programs 
+
 * Read this whole file.
+  - Good enough 
+
 * Skim the spec.
+  - Spec skimmed
 
 ## Step 1: Add the constructor to `cpu.py`
 
