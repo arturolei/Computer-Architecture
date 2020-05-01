@@ -484,7 +484,7 @@ Each subsequent line has two-times the number of asterisks as the previous line.
 **Use loops to get this done.**
 
 Doing this correctly requires implementing `CMP`, and some comparative forms of
-`JMP`, such as `JLT` or `JNE` or `JEQ`.
+`JMP`, such as `JLT` or `JNE` or `JEQ`. [DONE]
 
 Hint: Look in the `asm/` directory and learn how to use the `asm.js` assembler.
 This way you can write your code in assembly language and use the assembler to
