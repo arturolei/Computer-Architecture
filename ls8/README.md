@@ -60,10 +60,21 @@ but you'll have to implement those three above instructions first!
 ## Step 0: IMPORTANT: inventory what is here!
 
 * Make a list of files here.
+  - cpu.py
+  - ls8.py
+
 * Write a short 3-10-word description of what each file does.
+  - cpu.py seems to be the cpu
+  - ls8.py is an instance or computer that uses the cpu 
+
 * Note what has been implemented, and what hasn't.
+  - Looks like we need to implement load/run and multiply, ability to read programs 
+
 * Read this whole file.
+  - Good enough 
+
 * Skim the spec.
+  - Spec skimmed
 
 ## Step 1: Add the constructor to `cpu.py`
 
@@ -473,7 +484,7 @@ Each subsequent line has two-times the number of asterisks as the previous line.
 **Use loops to get this done.**
 
 Doing this correctly requires implementing `CMP`, and some comparative forms of
-`JMP`, such as `JLT` or `JNE` or `JEQ`.
+`JMP`, such as `JLT` or `JNE` or `JEQ`. [DONE]
 
 Hint: Look in the `asm/` directory and learn how to use the `asm.js` assembler.
 This way you can write your code in assembly language and use the assembler to
